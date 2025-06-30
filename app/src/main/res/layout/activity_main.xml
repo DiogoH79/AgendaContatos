@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_edit_cadastro"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_edit_hint_nome"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="100sp"/>
+
+    <EditText
+        android:id="@+id/editTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_edit_hint_telefone"
+        android:inputType="phone"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_edit_hint_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="118dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/txt_button_salvar"
+        android:layout_marginRight="120dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonContatos"
+        android:layout_width="118dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/txt_buton_contatos" />
+
+
+</LinearLayout>
+
+</LinearLayout>
