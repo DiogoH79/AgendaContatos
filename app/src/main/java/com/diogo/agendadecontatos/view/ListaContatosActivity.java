@@ -20,6 +20,7 @@ public class ListaContatosActivity extends AppCompatActivity {
     private ContatoController contatoController;
     private Button btnVoltar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +31,13 @@ public class ListaContatosActivity extends AppCompatActivity {
             Intent intent = new Intent(ListaContatosActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
+        });
+
+        Button btnEditar = findViewById(R.id.btnEditar);
+
+        btnEditar.setOnClickListener(v -> {
+            Intent intent = new Intent(ListaContatosActivity.this, EditarContatosActivity.class);
+            startActivity(intent);
         });
 
         listViewContatos = findViewById(R.id.listViewContatos);

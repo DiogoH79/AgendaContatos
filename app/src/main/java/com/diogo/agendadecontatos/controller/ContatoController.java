@@ -33,4 +33,8 @@ public class ContatoController {
     public ArrayList<Contato> getListaContatos() {
         return listaContatos;
     }
+
+    public void removerContato(Contato contato) {
+        listaContatos.remove(contato);
+    }
 }

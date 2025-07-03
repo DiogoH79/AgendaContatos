@@ -11,12 +11,30 @@
         android:layout_width="wrap_content"
         android:layout_height="595dp" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="118dp"
         android:layout_height="61dp"
         android:layout_margin="16dp"
         android:backgroundTint="@color/black"
-        android:text="@string/txt_button_voltar"
+        android:text="@string/txt_button_voltar"  
         />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Editar" />
+
+    </LinearLayout>
 </LinearLayout>
+
